@@ -1,0 +1,206 @@
+/* основной цвет текста #757575 */
+/* цвет заголовка #212121 */
+/* цвет логотипа #2196F3 */
+/* вторичный цвет #FFFFFF */
+/* цвет фона #E5E5E5 */
+/* цвет фона подвала #2F303A  */
+/* цвет фона "Наша команда" #F5F4FA */
+
+:root {
+  --theme-color: #e5e5e5;
+  --text-primery: #757575;
+  --text-secondary: #212121;
+  --fone-color: #2196f3;
+}
+body {
+  font-family: "Roboto";
+  background-color: var(--theme-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #ffffff;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--text-secondary);
+}
+
+.primery-logo {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--fone-color);
+}
+.nav-link a {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.nav-link a:hover,
+.nav-link a:focus {
+  color: var(--fone-color);
+}
+.header-kontacts {
+  color: var(--text-primery);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.header-kontacts:hover,
+.header-kontacts:focus {
+  color: var(--fone-color);
+}
+
+.main-heading {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+.primery-section {
+  width: 1600px;
+  height: 600px;
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: url(../images/background-img.png);
+}
+.button-order-servise {
+  color: #ffffff;
+  font-family: "roboto";
+  font-weight: 700;
+  background-color: var(--fone-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.85;
+}
+/* особености */
+.list-heading {
+  display: none;
+}
+.list-peculiarities {
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.list-peculiarities-text {
+  color: var(--text-primery);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* чем мы занимаемся */
+.second-heading {
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.comand > li > h3 {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.comand > li > p {
+  color: var(--text-primery);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.our-comand {
+  background-color: #f5f4fa;
+}
+.logo-blue {
+  color: var(--fone-color);
+  font-weight: 700;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-white {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer {
+  background-color: #2f303a;
+}
+.addres {
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-kontakts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.join {
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.projekt button {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-family: "roboto";
+  background-attachment: #f5f4fa;
+  border: transparent;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.projekt button:hover,
+.projekt button :focus {
+  color: #ffffff;
+  background-color: var(--fone-color);
+}
+.projekt-box h2 {
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+}
+.projekt-box p {
+  color: var(--text-primery);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.main-portfolio {
+  background-color: #ffffff;
+}
