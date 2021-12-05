@@ -27,7 +27,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li {
   margin: 0; /* нулевая граница */
   padding: 0; /* нулевые отступы */
   border: 0; /* больше всего для картинок в IE6 */
@@ -47,9 +49,15 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: 1px solid #212121;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
 .main-nav {
   /* height: 80px; */
@@ -82,7 +90,7 @@ a {
 }
 /* навигация */
 .nav-link {
-  margin-right: 93px;
+  margin-left: 93px;
   display: flex;
 }
 .nav-link .nav-item:not(:last-child) {
@@ -218,7 +226,6 @@ a {
   background-color: #f5f4fa;
   width: 1200px;
   margin: 0 auto;
-  padding: 0px;
 }
 .comand > li > h3 {
   padding-top: 30px;
@@ -233,6 +240,7 @@ a {
 .comand > li > p {
   padding-top: 10px;
   text-align: center;
+
   color: var(--text-primery);
   font-weight: 400;
   font-style: normal;
@@ -265,6 +273,8 @@ a {
   line-height: 1.19;
 }
 .footer {
+  width: 1200px;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
   padding-left: 215px;
@@ -298,6 +308,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
 } */
+
 /* портфолио */
 .main-portfolio {
   background-color: #ffffff;
@@ -342,7 +353,14 @@ a {
   margin-left: 30px;
   margin-top: 30px;
 }
-
+.projekt-box-list .projekt-box-img {
+  display: block;
+}
+.prjekt-box-text {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
 .projekt-box-list h2 {
   text-align: center;
 
