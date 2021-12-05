@@ -52,7 +52,7 @@ a {
   background-color: #ffffff;
 }
 .main-nav {
-  height: 80px;
+  /* height: 80px; */
   display: flex;
   align-items: center;
 }
@@ -159,6 +159,7 @@ a {
 }
 /* особености */
 .list-heading {
+  margin-top: 0px;
   display: none;
 }
 .list-link {
@@ -298,7 +299,9 @@ a {
   line-height: 1.14;
 } */
 /* портфолио */
-
+.main-portfolio {
+  background-color: #ffffff;
+}
 .projekt-button-list {
   display: flex;
   justify-content: center;
@@ -357,7 +360,4 @@ a {
   font-style: normal;
   font-size: 16px;
   line-height: 1.87;
-}
-.main-portfolio {
-  background-color: #ffffff;
 }
