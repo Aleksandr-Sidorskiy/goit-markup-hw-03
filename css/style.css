@@ -19,7 +19,7 @@
 }
 body {
   font-family: "Roboto";
-  background-color: var(--theme-color);
+  background-color: ffffff;
 }
 h1,
 h2,
@@ -38,6 +38,13 @@ li {
   vertical-align: baseline;
   background: transparent;
 }
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
 ul {
   list-style: none;
 }
@@ -49,7 +56,10 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid #212121;
+  /* outline: 1px solid #212121; */
+}
+.normal {
+  padding-top: 0px;
 }
 .section {
   padding-top: 94px;
@@ -60,7 +70,7 @@ a {
   border-bottom: 1px solid #ececec;
 }
 .main-nav {
-  /* height: 80px; */
+  height: 80px;
   display: flex;
   align-items: center;
 }
@@ -155,8 +165,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-
+  padding: 10px 32px;
   border-radius: 4px;
+
   color: #ffffff;
   font-family: "roboto";
   font-weight: 700;
@@ -167,7 +178,7 @@ a {
 }
 /* особености */
 .list-heading {
-  margin-top: 0px;
+  /* margin-top: 0px; */
   display: none;
 }
 .list-link {
@@ -200,7 +211,7 @@ a {
 /* чем мы занимаемся */
 .second-heading {
   text-align: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 
   color: var(--text-secondary);
   font-weight: 700;
@@ -209,6 +220,7 @@ a {
   line-height: 1.16;
 }
 .second-list {
+  justify-content: center;
   display: flex;
   margin-top: 50px;
 }
@@ -218,13 +230,13 @@ a {
 }
 /* наша команда */
 .comand {
+  justify-content: center;
   display: flex;
   margin-left: -15px;
   margin-right: -15px;
 }
 .our-comand {
   background-color: #f5f4fa;
-  width: 1200px;
   margin: 0 auto;
 }
 .comand > li > h3 {
@@ -273,7 +285,6 @@ a {
   line-height: 1.19;
 }
 .footer {
-  width: 1200px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -310,39 +321,44 @@ a {
 } */
 
 /* портфолио */
-.main-portfolio {
-  background-color: #ffffff;
-}
+
 .projekt-button-list {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
   padding-bottom: 56px;
 }
 .projekt-button-list .projekt-button-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.projekt button {
+.projekt-button-item {
+  padding: 6px 22px;
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
+
   color: var(--text-secondary);
   font-weight: 500;
-  font-family: "roboto";
-  background-attachment: #f5f4fa;
-  border: transparent;
+  font-family: "Roboto";
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
   font-style: normal;
   font-size: 16px;
   line-height: 1.62;
 }
-.projekt button:hover,
-.projekt button :focus {
+.projekt-button-item :hover,
+.projekt-button-item :focus {
   color: #ffffff;
   background-color: var(--fone-color);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
 }
 .projekt {
   justify-content: center;
 }
 .projekt-box-list {
   display: flex;
+
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
