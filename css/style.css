@@ -65,15 +65,17 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.header {
-  background-color: #ffffff;
+header {
   border-bottom: 1px solid #ececec;
 }
-.main-nav {
+.header {
+  background-color: #ffffff;
+
   height: 80px;
   display: flex;
   align-items: center;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -145,7 +147,7 @@ a {
 /* главный заголовок Эффективные решения для вашего бизнеса */
 .main-heading {
   text-align: center;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 
   font-weight: 900;
   font-style: normal;
@@ -154,8 +156,9 @@ a {
   color: #ffffff;
 }
 .primery-section {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   height: 600px;
+  padding-top: 200px;
 
   background-color: rgba(47, 48, 58, 0.4);
   background-image: url(../images/background-img.png);
@@ -183,8 +186,9 @@ a {
 }
 .list-link {
   display: flex;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 }
+
 .list-link .list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -202,6 +206,7 @@ a {
 
 .list-peculiarities-text {
   margin-top: 10px;
+  width: 270px;
   color: var(--text-primery);
   font-weight: 400;
   font-style: normal;
@@ -211,6 +216,7 @@ a {
 /* чем мы занимаемся */
 .second-heading {
   text-align: center;
+  margin-bottom: 50px;
   /* margin-top: 94px; */
 
   color: var(--text-secondary);
@@ -236,12 +242,19 @@ a {
   margin-right: -15px;
 }
 .our-comand {
+  padding-bottom: 94px;
   background-color: #f5f4fa;
   margin: 0 auto;
 }
-.comand > li > h3 {
+.comand-name-box {
   padding-top: 30px;
+  padding-bottom: 10px;
   text-align: center;
+  background-color: #ffffff;
+}
+.comand > li > h3 {
+  /* padding-top: 30px;
+  text-align: center; */
 
   color: var(--text-secondary);
   font-weight: 500;
@@ -250,8 +263,8 @@ a {
   line-height: 1.18;
 }
 .comand > li > p {
-  padding-top: 10px;
-  text-align: center;
+  /* padding-top: 10px;
+  text-align: center; */
 
   color: var(--text-primery);
   font-weight: 400;
@@ -288,14 +301,14 @@ a {
   margin: 0px auto;
   display: flex;
   flex-direction: column;
-  padding-left: 215px;
+
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: #2f303a;
 }
 .addres {
-  padding-top: 20px;
+  margin-top: 20px;
 
   color: #ffffff;
   font-weight: 400;
@@ -304,7 +317,8 @@ a {
   line-height: 1.71;
 }
 .footer-kontakts {
-  padding-top: 9px;
+  margin-top: 9px;
+  display: block;
 
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -372,9 +386,10 @@ a {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  padding: 20px 24px;
 }
 .projekt-box-list h2 {
-  text-align: center;
+  /* text-align: center; */
 
   color: var(--text-secondary);
   font-weight: 700;
@@ -383,7 +398,7 @@ a {
   line-height: 2;
 }
 .projekt-box-list p {
-  text-align: center;
+  /* text-align: center; */
 
   color: var(--text-primery);
   font-weight: normal;
