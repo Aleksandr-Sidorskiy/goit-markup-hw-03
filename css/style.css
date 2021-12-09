@@ -65,6 +65,9 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.top {
+  padding-top: 0px;
+}
 header {
   border-bottom: 1px solid #ececec;
 }
@@ -212,12 +215,12 @@ header {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* чем мы занимаемся */
 .second-heading {
   text-align: center;
   margin-bottom: 50px;
-  /* margin-top: 94px; */
 
   color: var(--text-secondary);
   font-weight: 700;
@@ -248,7 +251,7 @@ header {
 }
 .comand-name-box {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -262,17 +265,29 @@ header {
   font-size: 16px;
   line-height: 1.18;
 }
-.comand > li > p {
+/* .comand > li > p {
   /* padding-top: 10px;
   text-align: center; */
 
-  color: var(--text-primery);
-  font-weight: 400;
-  font-style: normal;
+/* font-weight: normal;
   font-size: 16px;
-  line-height: 1.18;
-}
+  line-height: 1, 18;
+  text-align: center;
+  letter-spacing: 0.03em;
+} */
+.comand-position {
+  padding-top: 10px;
 
+  color: var(--text-primery);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .comand .comand-name {
   justify-content: space-evenly;
 }
@@ -334,12 +349,12 @@ header {
   line-height: 1.14;
 } */
 
-/* портфолио */
+/* Портфолио */
 
 .projekt-button-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
 .projekt-button-list .projekt-button-item:not(:last-child) {
   margin-right: 8px;
